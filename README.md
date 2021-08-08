@@ -17,12 +17,11 @@ https://regexr.com/
 ```js
 // 생성자
 new RegExp('표현', '옵션');
-new RegExp('[a-z]', 'gi') /
-  // 리터럴
-  표현 /
-  옵션 /
-  [a - z] /
-  gi;
+new RegExp('[a-z]', 'gi');
+
+// 리터럴
+/표현/옵션
+/[a - z]/gi;
 ```
 
 ## 예제 문자
